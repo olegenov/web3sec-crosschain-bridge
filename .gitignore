@@ -1,0 +1,25 @@
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+
+# Dependencies
+lib/
+**/node_modules/
+
+# Env files
+.env
+.env.*
+
+# Relayer build artifacts
+relayer/dist/
+relayer/.env
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Coverage/Reports (если появятся)
+coverage/
+
